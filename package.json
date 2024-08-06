@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 6868",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.8.5",
+    "@ffmpeg/ffmpeg": "^0.9.8",
+    "@ffmpeg/util": "^0.12.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "express": "^4.19.2",
+    "ffmpeg": "^0.0.4",
+    "jsmediatags": "^3.9.7",
+    "sweetalert2": "^11.12.4",
+    "vue": "^3.2.13",
+    "vue-toast-notification": "^3.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
